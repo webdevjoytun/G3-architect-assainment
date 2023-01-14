@@ -1,0 +1,21 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+   
+}
+/* nav style */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+}
+.nav-item ul {
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+
+}
+li{
+    padding-left: 30px;
+}
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
