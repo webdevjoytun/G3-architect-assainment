@@ -2,7 +2,16 @@
     font-family: 'Open Sans', sans-serif;
    
 }
-/* nav style */
+.body{
+    margin: auto;
+}
+/* nav & header style */
+.header{
+    background: rgba(255, 144, 14, 0.1);
+    border-radius: 5px;
+   padding-bottom: 57px;
+   margin-bottom: 73px;
+}
 .navbar{
     display: flex;
     justify-content: space-around;
@@ -16,6 +25,29 @@ justify-content: space-evenly;
 li{
     padding-left: 30px;
 }
-.header{
-    background: rgba(255, 144, 14, 0.1);
+
+/* banner style*/
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner-intro{
+    width: 600px;
+    text-align: center;
+
+}
+
+.banner-title{
+    font-size: 64px;
+}
+.btn-explore{
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: rgb(248, 147, 32);
+    border: 0;
+    border-radius: 5px;
+}
+.banner img{
+    width: 862px;
 }
