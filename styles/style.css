@@ -51,3 +51,34 @@ li{
 .banner img{
     width: 862px;
 }
+
+/* Our features section */
+.article{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap: 30px;
+    align-items: center;
+    margin: 30px 100px;
+
+}
+.team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 24px;
+}
+.section-title{
+    font-weight: 500;
+    font-size: 45px;
+}
+#quick-list{
+    
+    color: lightslategray;
+}
+#features{
+    font-weight: 700;
+color: rgb(248, 147, 32);
+}
+.section-info{
+    font-size: 16px;
+}
